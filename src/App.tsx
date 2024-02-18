@@ -11,8 +11,6 @@ import Titulo from './components/Titulo';
 import useDadosConsulta from './useDadosConsulta';
 import useDadosProfissionais from './useDadosProfissionais';
 
-
-
 function App() {
   const { dados: consultas, erro: consultasErro } = useDadosConsulta();
   const { dados: profissionais, erro: profissionaisErro } = useDadosProfissionais();
