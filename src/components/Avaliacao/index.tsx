@@ -17,7 +17,7 @@ const Avaliacao = ({ profissionais }: { profissionais: IProfissional[] | null })
     <>
       <SecaoCard>
         {profissionais?.map((profissional) => {
-          return <Card profissional={profissional} />
+          return <Card key={profissional.id} profissional={profissional} />
         })}
       </SecaoCard>
 

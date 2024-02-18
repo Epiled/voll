@@ -55,6 +55,19 @@
             ],
             "paciente": "Guilherme Lira",
             "modalidade": "Particular"
+        },
+        {
+            "id": 3,
+            "data": "2022-01-25",
+            "horario": "08:30",
+            "profissional": [
+                {
+                    "nome": "Caroline Carvalho",
+                    "especialidade": "Nutricionista"
+                }
+            ],
+            "paciente": "Guilherme Lira",
+            "modalidade": "Particular"
         }
     ],
     "avaliacoes": [
