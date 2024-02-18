@@ -15,7 +15,6 @@ function App() {
   const { dados: consultas, erro: consultasErro } = useDadosConsulta();
   const { dados: profissionais, erro: profissionaisErro } = useDadosProfissionais();
 
-
   if (consultasErro || profissionaisErro) {
     console.log('Ocorreu um erro na requisição');
   }
